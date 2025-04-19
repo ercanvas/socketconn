@@ -1,3 +1,0 @@
-# Geliştirme ve genişletme için önerilen paketler:
-paramiko       # SSH ile dosya işlemleri (güvenli aktarım için)
-cryptography   # İleride veri şifrelemek istersen
