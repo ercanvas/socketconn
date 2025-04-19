@@ -4,7 +4,7 @@ const path = require('path');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-const SECRET = "gizliSifre"; // Bunu çevresel değişkene taşıman iyi olur
+const SECRET = "123456"; // Bunu çevresel değişkene taşıman iyi olur
 
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.json());
@@ -16,7 +16,7 @@ app.post('/connect', (req, res) => {
     }
 
     const client = new net.Socket();
-    client.connect(9000, 'KULLANICI_IP', () => {
+    client.connect(9000, '192.168.183.164', () => {
         client.write('ls\n');
     });
 
