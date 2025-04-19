@@ -1,0 +1,17 @@
+{
+  "name": "socketconn",
+  "version": "0.0.1",
+  "description": "you can connect any device from everywhere",
+  "repository": {
+    "type": "git",
+    "url": "socketconn"
+  },
+  "license": "MIT",
+  "author": "yasin",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  }
+}
